@@ -1,0 +1,34 @@
+.Post{
+    border: 1px solid #a39f9f33;
+    max-width: 800px;
+    margin: 15px 7px;
+}
+
+.Post .Post__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Post .Post__header .Post__header__inside {
+    display: flex;
+    align-items: center;
+    padding: 6px 1px;
+    border: 0px solid #a39f9f33;
+    max-width: 800px;
+}
+
+.Post .Post__header .Post__header__inside .avatar {
+    padding: 0px 14px;
+}
+
+.Post .Post__image {
+    width : 100%;
+    object-fit: contain;
+    max-width: 800px;
+}
+
+.Post .Post__caption {
+    font-family: initial;
+}
+

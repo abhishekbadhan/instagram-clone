@@ -1,0 +1,22 @@
+.comments .comments__title {
+    font-family: monospace;
+    margin: 5px;
+    margin-top: 11px;
+}
+
+.comments .comments__posts {
+    margin-top: 11px;
+    font-family: monospace;
+    color: #102a2a;
+    margin: 5px;
+}
+
+
+.comments .comments__box {
+    display: flex;
+    margin-top: 6px;
+}
+
+.comments .comments__box .comments__box__input {
+    flex: 1;
+}

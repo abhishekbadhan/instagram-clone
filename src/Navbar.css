@@ -1,0 +1,29 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.Navbar {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #a39f9f33;
+    padding: 11px;
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+}
+
+.signup__form {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+}
+
+.signup__form .signup__tag {
+    text-align: center;
+    font-family: monospace;
+}
+
+.signup__form .MuiFormControl-root {
+    margin-bottom: 30px;
+}

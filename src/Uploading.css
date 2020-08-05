@@ -1,0 +1,25 @@
+.innercard {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 10;
+    position: fixed; */
+}
+
+.innercard .innercard__progress {
+    width: 100%;
+    padding: 14px;
+}
+
+.innercard .innercard__input {
+    width: 100%;
+}
+
+.innercard .innercard__file {
+    padding: 21px;
+}
+
+.innercard .innercard__button button {
+    width: 100%;
+    height: 33px;
+}
